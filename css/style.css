@@ -99,27 +99,32 @@ span{
 }
 
 /*nav_bar_icon*/
-.fa_fa_bars{
-    float:right;
-    visibility:hidden;
-    background-color:chartreuse;
-}
+
 .hamburger{
+    float:right;
     visibility: hidden;
+    background-color:chartreuse;
+}
+.fa{
+    visibility:hidden;
 }
 
-@media screen only and (max-width:650px){
+@media screen only and (max-width:700px){
 
-    ul{
+  header >ul{
         visibility:hidden;
+       
     }
-    .fa_fa_bars{
-    float:right;
-    visibility:visible;
-    background-color:chartreuse;
-    }
+
     .hamburger{
-    visibility: visible;
+        margin:0 auto;
+        text-align: center;
+        background-color:chartreuse;
+        visibility: visible;
+    }
+    .fa{
+      visibility: visible;
+        color:grey;
     }
 }
    
