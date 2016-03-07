@@ -67,3 +67,15 @@ hr{
     color:#ffffff;
     width:45%;
 }
+/*verticle line between div*/
+.verticle_line{
+    margin-top:4rem;
+    height:10rem;
+    width:calc(100%/3);
+    border-right:2px solid #ffffff;
+    text-align:center
+}
+span{
+    text-transform:uppercase;
+    color:#ffffff;
+}
