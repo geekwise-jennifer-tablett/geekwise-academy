@@ -116,7 +116,7 @@ top_line{
     width:100%;
     visibility:hidden;
 }
-
+/*media query*/
 @media only screen and (max-width:768px){
 
   header >ul{
@@ -158,4 +158,7 @@ top_line{
     }
     
 }
-   
+/*about_page*/   
+.img_link{
+    
+}
