@@ -5,7 +5,8 @@ html,body{
     box-sizing:border-box;
 }
 body{
-    
+    height:100%;
+    width:100%;
 }
 header{
     height:5rem;
@@ -45,4 +46,24 @@ a:hover{
     margin:0 auto;
     display:block;
     text-align:center;
+}
+section{
+    margin-top;2rem;
+    
+    height:20rem;
+    width:100%;
+    background-color:#7a1501;
+}
+h2{
+    text-transform:uppercase;
+    text-align:center;
+    color:#ffffff;
+}
+h1{
+    text-align:center;
+    color:#ffffff;
+}
+hr{
+    color:#ffffff;
+    width:45%;
 }
