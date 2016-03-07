@@ -110,11 +110,11 @@ span{
     visibility:hidden;
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:768px){
 
   header >ul{
         visibility:hidden;
-       
+       overflow: hidden;
     }
 
     .hamburger{
@@ -126,11 +126,27 @@ span{
         visibility: visible;
     }
     .fa{
-      visibility: visible;
+        margin:0 auto;
+        visibility: visible;
         color:grey;
     }
-    img{
-       width:%;
+    #logo{
+        height:auto;
+        width:100%;
+   }
+   
+    .verticle_line{
+        height: auto;
+        max-width:62px;
     }
+    #left_img{
+        max-width:62px;
+        height: auto;
+    }
+    
+    hr{
+        width:100%;
+    }
+    
 }
    
