@@ -49,8 +49,7 @@ a:hover{
 }
 section{
     margin-top;2rem;
-    
-    height:20rem;
+    height:30rem;
     width:100%;
     background-color:#7a1501;
 }
@@ -73,9 +72,15 @@ hr{
     height:10rem;
     width:calc(100%/3);
     border-right:2px solid #ffffff;
-    text-align:center
+    text-align:center;
+    display:inline-block;
+    float:left;
 }
 span{
     text-transform:uppercase;
     color:#ffffff;
+}
+#left_img{
+    display:inline-block;
+    width:calc(100%/3);
 }
