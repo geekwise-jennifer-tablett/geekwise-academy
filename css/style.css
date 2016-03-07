@@ -98,18 +98,19 @@ span{
     float:left;
 }
 
-/*nav_bar_icon*/
+/*nav bar icon*/
 
 .hamburger{
     float:right;
     visibility: hidden;
-    background-color:chartreuse;
+    
 }
 .fa{
+    float: right;
     visibility:hidden;
 }
 
-@media screen only and (max-width:700px){
+@media only screen and (max-width:700px){
 
   header >ul{
         visibility:hidden;
@@ -117,6 +118,8 @@ span{
     }
 
     .hamburger{
+        width: auto;
+        height: auto;
         margin:0 auto;
         text-align: center;
         background-color:chartreuse;
