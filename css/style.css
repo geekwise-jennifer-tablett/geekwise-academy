@@ -129,5 +129,8 @@ span{
       visibility: visible;
         color:grey;
     }
+    img{
+       width:%;
+    }
 }
    
