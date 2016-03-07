@@ -41,6 +41,7 @@ a:hover{
 .active_li{
    background-color:#f9da0c; 
 }
+
 /*owl*/
 #logo{
     margin:0 auto;
@@ -78,10 +79,14 @@ hr{
     display:inline;
     float:left;
 }
+.nocolor_a:hover{
+    background-color:#7a1501;
+}
 span{
     text-transform:uppercase;
     color:#ffffff;
 }
+
 #left_img{
     margin-top:4rem;
     padding:20px;
@@ -92,3 +97,29 @@ span{
     width:calc(84%/3);
     float:left;
 }
+
+/*nav_bar_icon*/
+.fa_fa_bars{
+    float:right;
+    visibility:hidden;
+    background-color:chartreuse;
+}
+.hamburger{
+    visibility: hidden;
+}
+
+@media screen only and (max-width:650px){
+
+    ul{
+        visibility:hidden;
+    }
+    .fa_fa_bars{
+    float:right;
+    visibility:visible;
+    background-color:chartreuse;
+    }
+    .hamburger{
+    visibility: visible;
+    }
+}
+   
