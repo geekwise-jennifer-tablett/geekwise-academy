@@ -1,0 +1,48 @@
+html,body{
+    margin:0;
+    padding:0;
+    font:62.5%;
+    box-sizing:border-box;
+}
+body{
+    
+}
+header{
+    height:5rem;
+    width:100%;
+}
+nav{
+   text-align:center;
+    height:5rem;
+    width:100%;
+    display:block;
+}
+nav > ul{
+    display:inline-block;
+    list-style:none;
+    line-height:1rem;
+}
+li{
+    padding:1rem;
+    display:inline;
+    float:left;
+    height:1rem;
+    font-size:1rem;
+    text-transform:uppercase;
+}
+a{
+  color:#000000;     
+  text-decoration:none;
+}
+a:hover{
+    background-color:#f9da0c;
+}
+.active_li{
+   background-color:#f9da0c; 
+}
+/*owl*/
+#logo{
+    margin:0 auto;
+    display:block;
+    text-align:center;
+}
