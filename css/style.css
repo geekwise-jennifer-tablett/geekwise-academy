@@ -41,6 +41,9 @@ a:hover{
 .active_li{
    background-color:#f9da0c; 
 }
+.active_li > a{
+    color:#7a1501;
+}
 
 /*owl*/
 #logo{
@@ -109,12 +112,15 @@ span{
     float: right;
     visibility:hidden;
 }
+top_line{
+    width:100%;
+    visibility:hidden;
+}
 
 @media only screen and (max-width:768px){
 
   header >ul{
-        visibility:hidden;
-       overflow: hidden;
+       display: block;
     }
 
     .hamburger{
@@ -129,6 +135,9 @@ span{
         margin:0 auto;
         visibility: visible;
         color:grey;
+    }
+    #top_line{
+        visibility:visible;
     }
     #logo{
         height:auto;
