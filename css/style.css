@@ -66,14 +66,16 @@ hr{
     color:#ffffff;
     width:45%;
 }
+
 /*verticle line between div*/
 .verticle_line{
     margin-top:4rem;
+    padding:20px;
     height:10rem;
-    width:calc(100%/3);
+    width:calc(84%/3);
     border-right:2px solid #ffffff;
     text-align:center;
-    display:inline-block;
+    display:inline;
     float:left;
 }
 span{
@@ -81,6 +83,12 @@ span{
     color:#ffffff;
 }
 #left_img{
-    display:inline-block;
-    width:calc(100%/3);
+    margin-top:4rem;
+    padding:20px;
+    height:10rem;
+    width:calc(84%/3);
+    text-align:center;
+    display:inline;
+    width:calc(84%/3);
+    float:left;
 }
