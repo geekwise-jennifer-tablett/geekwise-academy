@@ -187,7 +187,7 @@ top_line{
 }
 /*about_page*/   
 
-header{
+.top_nav{
     height:4rem;
 }
 
@@ -274,4 +274,58 @@ footer{
     text-align: center;
     line-height: 3rem;
     color:#7a1501;
+}
+/*courses*/
+.head_courses{
+    height:10rem;
+    background-color:#7a1501;
+}
+.color_white{
+    position:relative;
+    top:1.2rem;
+}
+.color_white >a{
+    color:#ffffff;
+}
+/*signup link*/
+.course_right{
+    height:3.5rem;
+    width:5rem;
+    text-align:center;
+    line-height:3.5rem;
+    position:relative;
+    float:right;
+    transform:translateY(-9rem);
+    left:-10rem;
+    color:#7a1501;
+}
+#no_fluff{
+    margin:0;
+    padding:0;
+    height:3rem;
+    width:40%;
+    text-align: center;
+    line-height:3rem;
+    position:relative;
+    top:-2rem;
+    color:#ffffff;
+}
+/*geekwise_logo_lower_rightimg*/
+#main_course{
+    height:50rem;
+    width:100%;
+    background-color:#ffffff;
+}
+#info{
+    margin-top:1rem;
+    padding:1rem;
+    text-align:justify;
+}
+.enroll_link{
+    height:3rem;
+    width:5rem;
+    line-height:3rem;
+    text-align: center;
+    background-color:#f9da0c;
+    
 }
