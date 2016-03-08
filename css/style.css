@@ -159,6 +159,25 @@ top_line{
     
 }
 /*about_page*/   
+
+header{
+    height:4rem;
+}
 .img_link{
-    
+   
+    padding:.5rem;
+}
+.plain_nav{
+    margin:0 auto;
+    position:relative;
+    top:-6rem;
+    height:5rem;
+    width:60%;   
+}
+.plain_nav >ul{
+    height:5rem;
+}
+.plain_li >a:hover{
+    color:#7a1501;
+    background-color:#ffffff;
 }
