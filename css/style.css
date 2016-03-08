@@ -163,6 +163,7 @@ top_line{
 header{
     height:4rem;
 }
+
 .img_link{
    
     padding:.5rem;
@@ -180,4 +181,38 @@ header{
 .plain_li >a:hover{
     color:#7a1501;
     background-color:#ffffff;
+}
+#background_img{
+    height:10rem;
+    width:100%;
+    background-image:url(http://geekwiseacademy.com/img/owl-about.png);
+    background-repeat: no-repeat;
+}
+#background_img > h1{
+    text-transform: uppercase;
+    height:5rem;
+    width:20%rem;
+    float:right;
+    color:#000000;
+}
+/*button{
+ margin:0 auto;
+}*/
+
+.div_about{
+    margin:0;
+    height:1rem;
+    width:calc(100%/4);
+    display:block;
+    float:left;
+}
+footer{
+    height:3rem;
+    width:100%;
+    background-color:#f9da0c;
+}
+#foot_link{
+    text-align: center;
+    line-height: 3rem;
+    color:#7a1501;
 }
