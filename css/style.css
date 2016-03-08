@@ -321,6 +321,11 @@ footer{
     padding:1rem;
     text-align:justify;
 }
+table{
+    margin:0 auto;
+    padding:0;
+    width:90%;
+}
 .enroll_link{
     height:3rem;
     width:5rem;
