@@ -275,7 +275,7 @@ footer{
     line-height: 3rem;
     color:#7a1501;
 }
-/*courses*/
+/*courses page*/
 .head_courses{
     height:10rem;
     background-color:#7a1501;
@@ -312,9 +312,12 @@ footer{
 }
 /*geekwise_logo_lower_rightimg*/
 #main_course{
-    height:50rem;
+    height:30rem;
     width:100%;
     background-color:#ffffff;
+    background-image: url(http://geekwiseacademy.com/img/owl-courses.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
 }
 #info{
     margin-top:1rem;
@@ -324,13 +327,40 @@ footer{
 table{
     margin:0 auto;
     padding:0;
-    width:90%;
+    width:60%;
+    border-spacing:1rem;
+    border-collapse: collapse;
+    background-color:#ffffff;
 }
+tr{
+    height:auto;
+    width:auto;
+}
+th,td{
+    padding: 8px;
+    border-bottom:1px solid #dddddd;
+}
+.th_topic{
+    width:calc(100%/2);
+}
+
 .enroll_link{
     height:3rem;
     width:5rem;
     line-height:3rem;
     text-align: center;
     background-color:#f9da0c;
-    
+}
+
+.bottom_link{
+    margin-top:4rem;
+    width:20rem;
+    position:relative;
+    transform:translateX(30rem);
+}
+/*media query table  make it turn into its own list*/
+@ media only screen (max-width:650px)
+    table{
+       display:block;
+    }
 }
