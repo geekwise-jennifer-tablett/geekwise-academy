@@ -204,9 +204,16 @@ h1{
     position:relative;
     transform:translateX(-7rem);
 }
-/*button{
+button{
  margin:0 auto;
-}*/
+ height:3rem;
+ width:5rem;
+ position:relative;
+ transform:translateX(35rem);
+ top:-2rem;
+ border-color:#f9da0c;
+ background-color:#f9da0c;
+}
 main{
     margin:0;
     padding:0;
