@@ -198,6 +198,12 @@ header{
     float:right;
     color:#000000;
 }
+h1{
+    padding:.5rem;
+    display: block;
+    position:relative;
+    transform:translateX(-7rem);
+}
 /*button{
  margin:0 auto;
 }*/
