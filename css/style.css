@@ -359,8 +359,12 @@ th,td{
     transform:translateX(30rem);
 }
 /*media query table  make it turn into its own list*/
-@ media only screen (max-width:650px)
+@ media only screen and (max-width:650px)
     table{
-       display:block;
+      display:block;
+      height: auto;
+    }
+th,td{
+    display:inline-block;
     }
 }
