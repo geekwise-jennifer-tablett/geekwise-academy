@@ -12,6 +12,26 @@ header{
     height:5rem;
     width:100%;
 }
+/*nav bar icon*/
+
+.hamburger{
+    float:right;
+    text-align:right;
+    visibility: hidden;
+}
+.fa{
+    float: right;
+    text-align:right;
+    visibility:hidden;
+}
+/*dropdown_menu*/
+
+#dropdown{
+    position: relative;
+    display: inline-block;
+    float:right;
+    visibility:hidden;
+}
 nav{
    text-align:center;
     height:5rem;
@@ -66,10 +86,7 @@ h1{
     text-align:center;
     color:#ffffff;
 }
-hr{
-    color:#ffffff;
-    width:45%;
-}
+
 
 /*verticle line between div*/
 .verticle_line{
@@ -101,31 +118,6 @@ span{
     float:left;
 }
 
-/*nav bar icon*/
-
-.hamburger{
-    float:right;
-    visibility: hidden;
-    
-}
-.fa{
-    float: right;
-    visibility:hidden;
-}
-/*dropdown_menu*/
-#dbutton{
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-#dropdown{
-    position: relative;
-    display: inline-block;
-    visibility:hidden;
-}
 #content{
     display: none;
     position: absolute;
@@ -147,15 +139,23 @@ top_line{
 @media only screen and (max-width:768px){
 
   header >ul{
-       display: block;
+       visibility:hidden;
     }
-
+input[type=checkbox]{
+    display: none;
+}
+    ul{
+    display: none;
+}
+    input[type=checkbox]:checked ~ ul {
+    display: block
+}
     .hamburger{
+        margin:0 auto;
         width: auto;
         height: auto;
-        margin:0 auto;
+        font-size:20px;
         text-align: center;
-        background-color:chartreuse;
         visibility: visible;
     }
     .fa{
@@ -208,6 +208,8 @@ top_line{
 .plain_li >a:hover{
     color:#7a1501;
     background-color:#ffffff;
+    white-space: nowrap;
+    overflow: hidden;
 }
 #background_img{
     margin:0;
