@@ -12,8 +12,8 @@ header{
     height:5rem;
     width:100%;
 }
-/*nav bar icon*/
 
+/*nav bar icon*/
 .hamburger{
     float:right;
     text-align:right;
@@ -24,8 +24,8 @@ header{
     text-align:right;
     visibility:hidden;
 }
-/*dropdown_menu*/
 
+/*dropdown_menu*/
 #dropdown{
     position: relative;
     display: inline-block;
@@ -106,7 +106,6 @@ span{
     text-transform:uppercase;
     color:#ffffff;
 }
-
 #left_img{
     margin-top:4rem;
     padding:20px;
@@ -117,7 +116,6 @@ span{
     width:calc(84%/3);
     float:left;
 }
-
 #content{
     display: none;
     position: absolute;
@@ -130,12 +128,12 @@ span{
     display: block;
     color:black;
 }
-
 top_line{
     width:100%;
     visibility:hidden;
 }
-/*media query*/
+
+/*media query index*/
 @media only screen and (max-width:768px){
 
   header >ul{
@@ -185,12 +183,12 @@ input[type=checkbox]{
     }
     
 }
-/*about_page*/   
 
+
+/*about_page*/   
 .top_nav{
     height:4rem;
 }
-
 .img_link{
    
     padding:.5rem;
@@ -204,12 +202,13 @@ input[type=checkbox]{
 }
 .plain_nav >ul{
     height:5rem;
+    display:inline-block;
 }
 .plain_li >a:hover{
+    display:inline;
     color:#7a1501;
     background-color:#ffffff;
-    white-space: nowrap;
-    overflow: hidden;
+    
 }
 #background_img{
     margin:0;
@@ -265,7 +264,6 @@ main{
     font-size:15px;
     float:left;
 }
-
 footer{
     margin:0; 
     height:3rem;
@@ -277,6 +275,60 @@ footer{
     line-height: 3rem;
     color:#7a1501;
 }
+header >ul{
+    
+    /*media_querry_ about_page*/
+    @media only screen and (max-width:768px){
+        .plain_nav{
+            visibility:hidden;
+        }
+        input[type=checkbox]{
+    display: none;
+}
+    ul{
+    display: none;
+}
+    input[type=checkbox]:checked ~ ul {
+    display: block
+}
+    .hamburger{
+        margin:0 auto;
+        width: auto;
+        height: auto;
+        font-size:20px;
+        text-align: center;
+        visibility: visible;
+    }
+    .fa{
+        margin:0 auto;
+        visibility: visible;
+        color:grey;
+    }
+    #top_line{
+        visibility:visible;
+    }
+    #logo{
+        height:auto;
+        width:100%;
+   }
+   
+    .verticle_line{
+        height: auto;
+        max-width:62px;
+    }
+    #left_img{
+        max-width:62px;
+        height: auto;
+    }
+    
+    hr{
+        width:100%;
+    }
+    
+    }}
+
+
+
 /*courses page*/
 .head_courses{
     height:10rem;
@@ -345,7 +397,6 @@ th,td{
 .th_topic{
     width:calc(100%/2);
 }
-
 .enroll_link{
     height:3rem;
     width:5rem;
@@ -353,7 +404,6 @@ th,td{
     text-align: center;
     background-color:#f9da0c;
 }
-
 .bottom_link{
     margin-top:4rem;
     width:20rem;
@@ -380,3 +430,27 @@ input:checked + ul{
 label[for="menu"]:hover{
     
 }*/
+
+/*workshop_page*/
+#workshop{
+    margin:0 auto;
+    height:auto;
+    width:100%;
+    background-color:#ffffff;
+    background-image: url(http://i.imgur.com/nWa5AGV.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
+}
+#div_work{
+    margin:0 auto;
+    height:auto;
+    width:70%;
+}
+.h2_work{
+    color:#000000;
+}
+#hr_work{
+    width:100%;
+}
+
+
