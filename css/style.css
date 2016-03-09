@@ -455,5 +455,9 @@ label[for="menu"]:hover{
 #hr_work{
     width:100%;
 }
-
+.work_link{
+    margin:1rem;
+    position:relative;
+   transform:translateX(20rem);
+}
 
