@@ -200,7 +200,7 @@ top_line{
     position:relative;
     top:-6rem;
     height:5rem;
-    width:60%;   
+    width:60%;
 }
 .plain_nav >ul{
     height:5rem;
@@ -327,7 +327,7 @@ footer{
 table{
     margin:0 auto;
     padding:0;
-    width:60%;
+    width:40%;
     border-spacing:1rem;
     border-collapse: collapse;
     background-color:#ffffff;
@@ -359,7 +359,7 @@ th,td{
     transform:translateX(30rem);
 }
 /*media query table  make it turn into its own list*/
-@ media only screen and (max-width:650px)
+/*@ media only screen and (max-width:650px)
     table{
       display:block;
       height: auto;
@@ -367,4 +367,14 @@ th,td{
 th,td{
     display:inline-block;
     }
+}*/
+/*fa fa bars*/
+/*label{
+ background-color:antiquewhite;
 }
+input:checked + ul{
+    display:block;
+}
+label[for="menu"]:hover{
+    
+}*/
