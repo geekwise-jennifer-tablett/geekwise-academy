@@ -149,6 +149,7 @@ input[type=checkbox]{
 }
     input[type=checkbox]:checked ~ ul {
     display: block
+        background-color:#d2d2d2;
 }
     .hamburger{
         margin:0 auto;
@@ -176,8 +177,10 @@ input[type=checkbox]{
         max-width:62px;
     }
     #left_img{
+        margin:0 auto;
         max-width:62px;
-        height: auto;
+        height: auto
+        overflow: hidden;
     }
     
     hr{
