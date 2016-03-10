@@ -469,7 +469,7 @@ label[for="menu"]:hover{
     top:-1rem;
     background-color:#ffffff;
 }
-# cohort_header >nav >ul >li{
+# cohort_header >li{
     color:#000000;
 }
 .cohort_header >a:hover{
@@ -490,8 +490,29 @@ label[for="menu"]:hover{
 .bold_p{
     font-weight:bold;
 }
-ol{
-    margin:0;
+#cohort_info{
+    height:auto;
+    width:75%;
+}
+.div_ol{
+    margin:0 auto;
     padding:0;
     display:block;
 }
+#meet_cohort{
+    padding:1rem;
+    position:relative;
+    right:-4rem;
+}
+/*check_box_setup*/
+input[type=checkbox]{
+  background-color: #f9da0c;
+}
+input[type=checkbox]:checked ~ ul {
+    margin:0 auto;
+    display:block;
+    background-color: #f9da0c;
+    height:2rem;
+    width:75%;
+}
+
