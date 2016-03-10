@@ -571,8 +571,7 @@ input[type=checkbox]:checked ~ p{
 /*media_querry_ cohort_page*/
     @media only screen and (max-width:768px){
         .img_work{
-            position:relative;
-            object-position: top left;
+           
         }
         .plain_nav{
             visibility:hidden;
