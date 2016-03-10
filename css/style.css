@@ -497,10 +497,18 @@ label[for="menu"]:hover{
     height:auto;
     width:75%;
 }
-.div_ol{
+/*.div_ol{
     margin:0 auto;
     padding:0;
     display:block;
+}*/
+ol{
+    display:inline-block;
+    clear:both;
+}
+li{
+    display:block;
+    clear:both; 
 }
 #meet_cohort{
     padding:1rem;
