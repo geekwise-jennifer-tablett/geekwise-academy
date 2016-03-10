@@ -469,11 +469,17 @@ label[for="menu"]:hover{
     top:-1rem;
     background-color:#ffffff;
 }
-# cohort_header >li{
+.cohort_header >li{
     color:#000000;
+}
+.cohort_header >li >a{
+  color:#000000;
 }
 .cohort_header >a:hover{
     color:#7a1501;
+}
+.color_white >a{
+    color:#000000;
 }
 #main_cohort{
     margin:0 auto;
@@ -484,7 +490,7 @@ label[for="menu"]:hover{
     background-repeat: no-repeat;
     background-position:top right;
 }
-#cohort_color{
+#cohort_black{
     color:#000000;
 }
 .bold_p{
