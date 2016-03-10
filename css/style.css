@@ -568,3 +568,56 @@ input[type=checkbox]:checked ~ p{
     display:block;
     text-align:justify;
 }
+/*media_querry_ cohort_page*/
+    @media only screen and (max-width:768px){
+        .img_work{
+            position:relative;
+            object-position: top left;
+        }
+        .plain_nav{
+            visibility:hidden;
+        }
+        input[type=checkbox]{
+    display: none;
+}
+    ul{
+    display: none;
+}
+    input[type=checkbox]:checked ~ ul {
+    display: block
+}
+    .hamburger{
+        margin:0 auto;
+        width: auto;
+        height: auto;
+        font-size:20px;
+        text-align: center;
+        visibility: visible;
+    }
+    .fa{
+        margin:0 auto;
+        visibility: visible;
+        color:grey;
+    }
+    #top_line{
+        visibility:visible;
+    }
+    #logo{
+        height:auto;
+        width:100%;
+   }
+   
+    .verticle_line{
+        height: auto;
+        max-width:62px;
+    }
+    #left_img{
+        max-width:62px;
+        height: auto;
+    }
+    
+    hr{
+        width:100%;
+    }
+    
+    }}
