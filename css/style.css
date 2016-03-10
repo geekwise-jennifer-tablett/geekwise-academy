@@ -503,7 +503,7 @@ ol{
     display:inline-block;
     clear:both;
 }
-li{
+ol >li{
     display:block;
     clear:both; 
 }
