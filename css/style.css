@@ -432,6 +432,11 @@ label[for="menu"]:hover{
 }*/
 
 /*workshop_page*/
+.img_work{
+    position:relative;
+    padding:1rem;
+    right:-6rem;
+}
 #workshop{
     margin:0 auto;
     height:auto;
@@ -458,3 +463,35 @@ label[for="menu"]:hover{
    transform:translateX(20rem);
 }
 
+/*cohort page*/
+#cohort_header{
+    position:relative;
+    top:-1rem;
+    background-color:#ffffff;
+}
+# cohort_header >nav >ul >li{
+    color:#000000;
+}
+.cohort_header >a:hover{
+    color:#7a1501;
+}
+#main_cohort{
+    margin:0 auto;
+    height:30rem;
+    width:100%;
+    background-color:#ffffff;
+    background-image: url(http://i.imgur.com/oSZPRBC.png);
+    background-repeat: no-repeat;
+    background-position:top right;
+}
+#cohort_color{
+    color:#000000;
+}
+.bold_p{
+    font-weight:bold;
+}
+ol{
+    margin:0;
+    padding:0;
+    display:block;
+}
