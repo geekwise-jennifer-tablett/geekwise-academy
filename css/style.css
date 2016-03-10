@@ -509,7 +509,12 @@ label[for="menu"]:hover{
 }
 /*check_box_setup*/
 input[type=checkbox]{
+  position:absolute;
   background-color: #f9da0c;
+  height:2rem;
+  width:75%;
+  visibility:hidden;
+  text-align:center;
 }
 input[type=checkbox]:checked ~ ul {
     margin:0 auto;
@@ -518,4 +523,37 @@ input[type=checkbox]:checked ~ ul {
     height:2rem;
     width:75%;
 }
+#ul_dropdown{
+    height:30rem;
+    display:block;
+    background-color:#ffffff;
+    
+}
 
+label{
+    height:4rem;
+    width:75%;
+    background-color:#f9da0c;
+}
+.li_dropdown{
+    height:15rem;
+    display:inline;
+    float:left;
+    font-size:8px;
+}
+.div_dropdown{
+    text-align:center;
+    height:30rem;
+    width:calc(100%/4);
+    float:left;
+}
+.img_dropdown{
+    display:block;
+}
+.dropdown_name{
+    color:#000000;
+}
+input[type=checkbox]:checked ~ p{
+    display:block;
+    text-align:justify;
+}
