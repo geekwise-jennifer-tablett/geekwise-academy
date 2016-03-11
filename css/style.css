@@ -13,59 +13,93 @@ header{
     width:100%;
 }
 
-/*nav bar icon*/
-.hamburger{
-    float:right;
-    text-align:right;
-    visibility: hidden;
-}
-.fa{
-    float: right;
-    text-align:right;
-    visibility:hidden;
-}
-
-/*dropdown_menu*/
-#dropdown{
-    position: relative;
-    display: inline-block;
-    float:right;
-    visibility:hidden;
-}
+/*home_page_navbar*/
 nav{
-   text-align:center;
+    display:block;
     height:5rem;
     width:100%;
-    display:block;
+    text-align:center;
+    margin-top:1rem;
 }
-nav > ul{
+ul{ 
     display:inline-block;
-    list-style:none;
-    line-height:1rem;
+    line-height:2rem;
 }
 li{
-    padding:1rem;
     display:inline;
+    padding:1rem;
     float:left;
-    height:1rem;
-    font-size:1rem;
+    height:2rem;
+    font-size:1.5rem;
     text-transform:uppercase;
 }
-a{
-  color:#000000;     
-  text-decoration:none;
-}
-a:hover{
+.active{
     background-color:#f9da0c;
 }
-.active_li{
-   background-color:#f9da0c; 
+a{
+    text-decoration:none;
+    color:#000000;
 }
-.active_li > a{
+a:hover{
     color:#7a1501;
 }
+li:hover{
+    background-color:#f9da0c;
+}
+hr{
+    visibility:hidden;
+}
+/*dropdown_menu*/
+.dropdown{
+    margin:1rem;
+    display:inline-block;
+    position:relative;
+    color:#ccc5c5;
+    font-size:4rem;
+    border:.5px solid #dbd3d3;
+    height:4rem;
+    width:5rem;
+    top:-6rem;
+    border-radius:.5rem;
+    float:right;
+}
+.dropdown_content{
+    padding: 10px 10px;
+    position:absolute;
+    display:none;
+    margin:0 auto;
+}
+.fa-bars{
+    position:absolute;
+    left:.7rem;
+    cursor:auto;
+}
+.dropdown{
+    visibility:hidden;
+}
+.dropdown_content{
+    display:block;
+    background-color:#f9da0c;
+}
 
-/*owl*/
+.dropdown_a:hover{
+    background-color:#eae6e6;
+}
+#toggle{
+    display: block;
+    display: none;
+    
+}
+#toggle:checked~p{
+   display: block;
+}
+input[type=checkbox]:checked ~ p{
+    display: none;
+}
+
+
+
+/*owl_on_home_page*/
 #logo{
     margin:0 auto;
     display:block;
@@ -88,7 +122,7 @@ h1{
 }
 
 
-/*verticle line between div*/
+/*verticleline_betweendiv_homepage*/
 .verticle_line{
     margin-top:4rem;
     padding:20px;
@@ -133,10 +167,10 @@ top_line{
     visibility:hidden;
 }
 
-/*media query index*/
+/*mediaquery_homepage*/
 @media only screen and (max-width:768px){
 
-  header >ul{
+  nav >ul{
        visibility:hidden;
     }
 input[type=checkbox]{
@@ -367,6 +401,7 @@ header >ul{
     top:-2rem;
     color:#ffffff;
 }
+
 /*geekwise_logo_lower_rightimg*/
 #main_course{
     height:30rem;
@@ -422,7 +457,7 @@ th,td{
 th,td{
     display:inline-block;
     }
-}*/
+}
 /*fa fa bars*/
 /*label{
  background-color:antiquewhite;
@@ -432,7 +467,7 @@ input:checked + ul{
 }
 label[for="menu"]:hover{
     
-}*/
+}
 
 /*workshop_page*/
 .img_work{
@@ -503,6 +538,7 @@ label[for="menu"]:hover{
     height:auto;
     width:75%;
 }
+
 /*.div_ol{
     margin:0 auto;
     padding:0;
@@ -543,7 +579,6 @@ input[type=checkbox]:checked ~ ul {
     background-color:#ffffff;
     
 }
-
 label{
     height:4rem;
     width:75%;
@@ -571,11 +606,11 @@ input[type=checkbox]:checked ~ p{
     display:block;
     text-align:justify;
 }
+
 /*media_querry_ cohort_page*/
     @media only screen and (max-width:768px){
         .img_work{
-            position:relative;
-            object-position: top left;
+           
         }
         .plain_nav{
             visibility:hidden;
@@ -624,3 +659,23 @@ input[type=checkbox]:checked ~ p{
     }
     
     }}
+
+
+/*contact_page*/
+#contact_main{
+    margin:0 auto;
+    height:50rem;
+    width:100%;
+    background-image: url(http://i.imgur.com/EbKNMUr.jpg );
+    background-repeat: no-repeat;
+    background-color:#ffffff;
+    background-position: center;
+}
+#contact_info{}
+
+/*mediaquery_header*/
+@media only screen and (min-width:960px){
+#contact_nav{
+    height:3rem;
+    }
+}
