@@ -662,24 +662,37 @@ input[type=checkbox]:checked ~ p{
 
 
 /*contact_page*/
+body{
+    margin:0;
+    }
 #contact_main{
     margin:0 auto;
     height:100rem;
     width:100%;
-    background-image: url(http://i.imgur.com/EbKNMUr.jpg);
-    background-size:100% 100%;
-    background-repeat: no-repeat;
     background-color:#ffffff;
-    background-position: center;
+    background-image: url( http://i.imgur.com/EbKNMUr.jpg
+);
+    background-size:100% 100%;
+    background-position: center;   
+    background-repeat: no-repeat;
 }
 div#contact_infomiddle {
-    height: 40rem;
-    width: 25rem;
+    height:30rem;
+    width:25rem;
     background-color:#ffffff;
-    color: black;
     margin: 0 auto;
+    position:relative;
+    text-align: center; transform:translateY(40rem);
+}
+.contact_span{
+    color:#000000;
+    font-size:2rem;
 }
 
+.span_emaillink{
+    color: #7a1501;
+    font-family:;
+}    
 
 /*mediaquery_header*/
 @media only screen and (min-width:960px){
