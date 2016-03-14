@@ -55,7 +55,7 @@ hr{
     display:inline-block;
     position:relative;
     color:#ccc5c5;
-    font-size:4rem;
+    font-size:1.5rem;
     border:.5px solid #dbd3d3;
     height:4rem;
     width:5rem;
@@ -68,6 +68,7 @@ hr{
     position:absolute;
     display:none;
     margin:0 auto;
+    text-align:center;
 }
 .fa-bars{
     position:absolute;
@@ -76,10 +77,12 @@ hr{
 }
 .dropdown{
     visibility:hidden;
+    width:100%;
 }
 .dropdown_content{
     display:block;
-    background-color:#f9da0c;
+    background-color:#7a1501;
+    width:100%;
 }
 
 .dropdown_a:hover{
@@ -622,7 +625,9 @@ input[type=checkbox]:checked ~ p{
         height:auto;
         width:100%;
    }
-   
+        .dropdown{
+            visibility: visible;
+        }
     .verticle_line{
         height: auto;
         max-width:62px;
@@ -648,7 +653,7 @@ body{
     height:auto;
     width:100%;
     background-color:#ffffff;
-    background-image: url( http://i.imgur.com/EbKNMUr.jpg 
+    background-image: url( http://i.imgur.com/EbKNMUr.jpghttp://i.imgur.com/ikpmz9r.jpg 
 );
     background-size:100% 100%;
     background-position:center; 
@@ -661,14 +666,14 @@ div#contact_infomiddle {
     margin: 0 auto;
     position:relative;
     text-align: center; 
-}#mural_img{
+}
+#mural_img{
   height:auto;
   width:10rem;
 }
-
 .contact_span{
     color:#000000;
-    font-size:1.5rem;
+    font-size:.8rem;
 }
 
 .span_emaillink{
@@ -680,5 +685,13 @@ div#contact_infomiddle {
 @media only screen and (min-width:960px){
 #contact_nav{
     height:4rem;
+    }
+}
+@media only screen and (max-width:678px){
+    #contact_main{
+      margin-top:20rem;
+    }
+    #contackt_informiddle{
+     
     }
 }
