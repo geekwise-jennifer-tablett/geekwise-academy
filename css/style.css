@@ -684,11 +684,11 @@ body{
     background:#bc897f;
     border-radius:5rem;
 }
-img{
+.team_img{
      opacity: .6;
     cursor: pointer;
 }
-img:hover{
+.team_img:hover{
     opacity:5;
 }
 span{
