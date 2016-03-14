@@ -512,10 +512,13 @@ th,td{
 }
 #cohort_info{
     margin-top:4rem;
-    background-color:#ffffff;
+ 
 }
 #cohort_black{
    color:#000000;
+   margin:0 auto;
+  position:relative;
+  transform:translateX(1rem);
 }
 .bold_p{
     font-weight:bold;
@@ -523,13 +526,8 @@ th,td{
 #cohort_info{
     height:auto;
     width:75%;
+    margin:0 auto
 }
-
-/*.div_ol{
-    margin:0 auto;
-    padding:0;
-    display:block;
-}*/
 ol{
     display:inline-block;
     clear:both;
@@ -539,6 +537,7 @@ ol >li{
     clear:both; 
 }
 #meet_cohort{
+    margin-top:1rem;
     padding:1rem;
     position:relative;
     right:-4rem;
@@ -551,6 +550,7 @@ input[type=checkbox]{
   width:75%;
   visibility:hidden;
   text-align:center;
+  transform:translateX(10rem);
 }
 input[type=checkbox]:checked ~ ul {
     margin:0 auto;
@@ -563,12 +563,17 @@ input[type=checkbox]:checked ~ ul {
     height:30rem;
     display:block;
     background-color:#ffffff;
-    
+    visibility:hidden;
 }
 label{
-    height:4rem;
+    height:2rem;
     width:75%;
     background-color:#f9da0c;
+    color:#000000;
+    visibility: visible;
+    position:absolute;
+    transform:translateX(12rem);
+    top:10rem;
 }
 .li_dropdown{
     height:15rem;
@@ -581,6 +586,7 @@ label{
     height:30rem;
     width:calc(100%/4);
     float:left;
+    visibility: collapse;
 }
 .img_dropdown{
     display:block;
@@ -588,10 +594,13 @@ label{
 .dropdown_name{
     color:#000000;
 }
-input[type=checkbox]:checked ~ p{
+input[type=checkbox]:checked ~p{
     display:block;
     text-align:justify;
+    visibility:visible;
 }
+
+
 
 /*media_querry_ cohort_page*/
     @media only screen and (max-width:768px){
@@ -601,14 +610,8 @@ input[type=checkbox]:checked ~ p{
         .plain_nav{
             visibility:hidden;
         }
-        input[type=checkbox]{
-    display: none;
-}
-    ul{
-    display: none;
-}
-    input[type=checkbox]:checked ~ ul {
-    display: block
+        
+    
 }
     .hamburger{
         margin:0 auto;
