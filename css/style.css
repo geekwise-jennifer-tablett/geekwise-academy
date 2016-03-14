@@ -653,19 +653,20 @@ body{
     }
 #contact_main{
     margin:0 auto;
-    height:auto;
+    height:700px;
     width:100%;
     background-color:#ffffff;
     background-image: url( http://i.imgur.com/EbKNMUr.jpghttp://i.imgur.com/ikpmz9r.jpg 
 );
+    
     background-size:100% 100%;
     background-position:center; 
     background-repeat: no-repeat;
 }
 div#contact_infomiddle {
+    padding-top:5rem;
     height:15rem;
     width:10rem;
-    background-color:#ffffff;
     margin: 0 auto;
     position:relative;
     text-align: center; 
