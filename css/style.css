@@ -500,7 +500,8 @@ th,td{
 .color_white >a{
     color:#000000;
 }
-#main_cohort{
+/*background_cohortandteam*/
+.bird_topright{
     margin:0 auto;
     height:30rem;
     width:100%;
@@ -509,8 +510,12 @@ th,td{
     background-repeat: no-repeat;
     background-position:top right;
 }
+#cohort_info{
+    margin-top:4rem;
+    background-color:#ffffff;
+}
 #cohort_black{
-    color:#000000;
+   color:#000000;
 }
 .bold_p{
     font-weight:bold;
@@ -642,6 +647,15 @@ input[type=checkbox]:checked ~ p{
     }
     
     }}
+
+/*team_page*/
+/*background img cohortandteam_page*/
+body{
+    background-image:url(http://i.imgur.com/otZt1fi.png);
+    background-position: top right;
+    
+}
+
 
 
 /*contact_page*/
