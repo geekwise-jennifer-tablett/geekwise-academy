@@ -599,7 +599,8 @@ input[type=checkbox]:checked ~p{
     text-align:justify;
     visibility:visible;
 }
-
+/*javascript_run,forall_essfunc*/
+runOnLoad(Dropdown.initialise);
 
 
 /*media_querry_ cohort_page*/
