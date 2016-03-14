@@ -658,8 +658,54 @@ body{
     background-position: top right;
     
 }
-
-
+#h1_team{
+    color:#000000;
+}
+#sec_team{
+    margin-top:4rem;
+    height:75rem;
+    color:#ffffff;
+    text-align:center;
+}
+#div_team{
+    padding:2rem;
+    color: #fff;
+    margin:1rem;
+    font-size:1.2rem;
+    display:block;
+    text-align:center;
+    position:relative;
+}
+.team_img{
+    margin:1.5rem;
+    height:126px ;
+    width:126px;
+    position:relative;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    background:#bc897f;
+    border-radius:5rem;
+}
+img{
+     opacity: .6;
+    cursor: pointer;
+}
+img:hover{
+    opacity:5;
+}
+span{
+    text-align:justify;
+    width:[125px];
+    display: block;
+    margin: 0 auto;
+    text-align:center;
+    color:#4b0900;
+    font-size:13px;
+}
+span:hover{
+    color:#000000;
+}
 
 /*contact_page*/
 body{
