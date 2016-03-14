@@ -30,7 +30,7 @@ li{
     padding:1rem;
     float:left;
     height:2rem;
-    font-size:1.5rem;
+    font-size:1rem;
     text-transform:uppercase;
 }
 .active{
@@ -448,26 +448,7 @@ th,td{
     position:relative;
     transform:translateX(30rem);
 }
-/*media query table  make it turn into its own list*/
-/*@ media only screen and (max-width:650px)
-    table{
-      display:block;
-      height: auto;
-    }
-th,td{
-    display:inline-block;
-    }
-}
-/*fa fa bars*/
-/*label{
- background-color:antiquewhite;
-}
-input:checked + ul{
-    display:block;
-}
-label[for="menu"]:hover{
-    
-}
+
 
 /*workshop_page*/
 .img_work{
@@ -667,26 +648,30 @@ body{
     }
 #contact_main{
     margin:0 auto;
-    height:100rem;
+    height:auto;
     width:100%;
     background-color:#ffffff;
-    background-image: url( http://i.imgur.com/EbKNMUr.jpg
+    background-image: url( http://i.imgur.com/EbKNMUr.jpg 
 );
     background-size:100% 100%;
-    background-position: center;   
+    background-position:center; 
     background-repeat: no-repeat;
 }
 div#contact_infomiddle {
-    height:30rem;
-    width:25rem;
+    height:15rem;
+    width:10rem;
     background-color:#ffffff;
     margin: 0 auto;
     position:relative;
-    text-align: center; transform:translateY(40rem);
+    text-align: center; 
+}#mural_img{
+  height:auto;
+  width:10rem;
 }
+
 .contact_span{
     color:#000000;
-    font-size:2rem;
+    font-size:1.5rem;
 }
 
 .span_emaillink{
