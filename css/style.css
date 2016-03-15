@@ -791,7 +791,7 @@ div#contact_infomiddle {
     background-color:#f9da0c;
 }
 #dropdownbutton{
-    visibility:hidden;
+/*    visibility:hidden;*/
     width:100%;
     margin:0 auto;
     text-align:center;
@@ -799,7 +799,7 @@ div#contact_infomiddle {
     border:.5px solid grey;
 }
 .click{
-    visibility:hidden;
+/*    visibility:hidden;*/
 }
 /*media_query_for_navbar*/
 @media screen and (max-width:760px){
@@ -817,11 +817,22 @@ div#contact_infomiddle {
     .pin_right{
         margin-left: auto;
     }
-    #dropdownbutton{
-        visibility:visible;
-    }
+    
     .click{
         visibility:visible;
         width:100%;
+        color:#000000;
     }
+    #dropdownbutton{
+/*        visibility: hidden;*/
+    }
+    #dropdownbutton:checked+.click{
+        display: block;
+        color:#000000;
+    }
+    .click{
+        display: none;
+    }
+    
+    
 }
