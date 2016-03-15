@@ -772,6 +772,8 @@ div#contact_infomiddle {
     height:4rem;
     width:90%;
     background-color:#ffffff;
+    position:relative;
+    top:-7.5rem;
 }
 .flex_li{
     margin:1px;
@@ -834,7 +836,7 @@ label{
 }
 .onclick-menu:focus .onclick-menu-content {
     display: block;
-    visibility: visible;
+    visibility:visible;
     pointer-events: none;
     opacity: 1;
     text-align: center;
@@ -867,12 +869,9 @@ label{
         visibility:visible;
         max-width:10rem;
        }
-    .pin_left{
-        -webkit-align-self: flex-start;
-   align-self: flex-start;
-    }
-    .pin_right{
-        margin-left: auto;
+    .flex_li:first-child{
+        margin:2rem;
+        position: absolute;
     }
     
    /* .click{
@@ -894,5 +893,3 @@ label{
     visibility:visible;
 }
     
-    
-}
