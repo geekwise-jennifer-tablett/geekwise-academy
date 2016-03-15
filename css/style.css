@@ -798,23 +798,15 @@ div#contact_infomiddle {
 
 
 /*dropdown_button*/
-/*#dropdownbutton{
-/*    visibility:hidden;*/
-  /*  width:100%;
+#dropdownbutton{
+    width:100%;
     margin:0 auto;
     text-align:center;
     display:block;
     border:.5px solid grey;
     position: relative;
-    transform:translateY(10rem);
-
-.click{
-/*    visibility:hidden;*/
-   /* width:100%;
-    position:relative;
-    transform:translateY(10rem);
-    color:#000000;
 }
+
 label{
     height:2rem;
     width:100%;
@@ -823,76 +815,17 @@ label{
     visibility: visible;
     position:absolute;
     top:10rem;
-}*/
-
-
-/*button_test*/
-.onclick-menu {
-    position: relative;
-    display: inline-block;
+}
+.bar{
+  
+}
+.click{
+    width:100%;
+    position:relative;
     transform:translateY(10rem);
-    width:100%;
+    color:#000000;
 }
-.onclick-menu:before {
-    content:i class="fa fa-bars"></i>;
-    pointer-events: none;
-}
-.onclick-menu:focus .onclick-menu-content {
+#dropdownbutton~#button_nav{
     display: block;
-    visibility:visible;
-    pointer-events: none;
-    opacity: 1;
-    text-align: center;
-    font-size:12rem;
-    height: 12rem;
-    width:100%;
-    background-color:yellow;
-}
-.onclick-menu-content {
-    position: absolute;
-    z-index: 1;
-    opacity:0;
-    visibility: hidden;
-    transition: visibility 0.5s;
-}
-.fa{
-    position: relative;
-    margin-left: 10rem;
-    height: 2rem;
-    width:2rem;
-    text-align: center;
 }
 
-/*media_query_for_navbar*/
-@media screen and (max-width:760px){
-    .flex_li{
-        visibility:hidden;
-    }
-    .visable{
-        visibility:visible;
-        max-width:10rem;
-       }
-    .flex_li:first-child{
-        margin:2rem;
-        position: absolute;
-    }
-    
-   /* .click{
-        visibility:visible;
-        width:100%;
-        color:#000000;
-    }
-    #dropdownbutton{
-/*        visibility: hidden;*/
-    }
-    /*#dropdownbutton:checked+.click{
-        display: block;
-        color:#000000;
-    }
-    .click{
-        display: none;
-    }*/
-.fa{
-    visibility:visible;
-}
-    
