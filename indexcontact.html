@@ -3,82 +3,90 @@
     <head>
         <meta charaset="utf-8">
         <meta name="viewport" content="width=devise-width,initial-scale=1, maximum-scale=1, user-scale=no">
-        <link type="text/css" rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
-        
+        <link type="text/css" rel="stylesheet" href="css/style.css">
     </head>
     <body>
      <header class="top_nav head_courses" id="contact_nav">
      <!--geekwise_logoimg-->
      <img src="http://i.imgur.com/4sLPl0U.png" class="img_work" href="index.html">
-      <nav class="plain_nav" >
-         <ul>
-          <li>
-              <a href="indexabout.html">About
-              </a>
-            </li>
-            <li>
-                <a href="indexcourses.html">Courses
-                </a>
-            </li>
-            <li>
-                <a href="indexworkshops.html">Workshops
-                </a>
-            </li>
-            <li>
-                <a href="indexcohort.html">Cohort
-                </a>
-            </li>
-            <li class="active">
-                <a href="indexsignup.html">Sign up
-                </a>
-            </li>
-            <li>
-                <a href="indexteam.html">Team
-                </a>
-            </li>
-            <li>
-                <a href="indexcontact.html">Contact
-                </a>
-            </li>
-          </ul>
-      </nav>
-         <hr>
-      <!--dropdown_menu-->  
+      <nav class="plain_nav"> 
+        <ul>
+         <li class="color_white">
+          <a href="indexabout.html">about
+          </a>
+         </li>
+         <li class="color_white"> 
+          <a href="indexcourses.html">courses
+          </a>
+         </li>
+         <li class="color_white"> 
+          <a href="indexworkshops.html">workshops
+          </a>
+         </li>
+         <li class="color_white"> 
+          <a href="indexcohort.html">cohort
+          </a>
+         </li>
+         <li class="color_white"> 
+          <a href="indexteam.html">team
+          </a>
+         </li>
+         <li class="color_white"> 
+          <a href="indexcontact.html">contact
+          </a>
+         </li>
+        </ul>
+       </nav>
+        <a href="indexsignup.html" class="active_li course_right">signup</a>
+      
+ 
+   <!--dropdown_menu-->  
     <div class="dropdown">
-     <label class="fa fa-bars"></label>
-     <input type="checkbox" id="checkbox_toggle">
-      <div class="dropdown_content">
-          <p>
-              <a href="indexabout.html" class="dropdown_a">about
-              </a>
-          </p>
-          <p>
-              <a href="indexcourses.html" class="dropdown_a"> courses
-              </a>
-          </p>
-          <p>
-              <a href="indexworkshops" class="dropdown_a">workshops
-              </a>
-          </p>
-          <p>
-              <a href="indexcohort.html" class="dropdown_a">cohort
-              </a>
-          </p>
-          <p>
-              <a href="signup" class="active" class="dropdown_a">signup
-              </a>
-          </p>
-          <p>
-              <a href="indexteam.html" class="dropdown_a">team
-              </a>
-          </p>
-          <p>
-              <a href="indexcontact.html" class="dropdown_a">contact
-              </a>
-          </p>
-      </div>
-    </div>
+     <label for="checkbox_toggle" class="fa fa-bars hamburger"></label>
+      <div class="flex_container_nav">
+        </div>
+        <!--nav bar in flex box-->
+        <input type="checkbox" id="checkbox_toggle">
+        <div class="dropdown_content">
+        
+          <div class="flex_li dropdown_content">
+          <a href="indexabout.html">
+              ABOUT
+          </a>  
+        </div>
+        <div class="flex_li dropdown_content">
+            <a href="indexcourses.html">
+                COURSES
+            </a>
+        </div>
+        <div class="flex_li dropdown_content">
+            <a href="indexworkshops.html">
+                WORKSHOPS
+            </a>
+        </div>
+        <div class="flex_li dropdown_content">
+            <a href="indexcohort.html">
+                COHORT
+            </a>
+        </div>
+        <div class="flex_li dropdown_content">
+            <a href="indexteam.html">
+                TEAM
+            </a>
+        </div>
+        <div class="flex_li dropdown_content">
+            <a href="indexcontact.html">
+                CONTACT
+            </a>
+        </div>
+        <div class="flex_li visable active pin_right dropdown_content">
+            <a href="indexsignup.html">
+                SIGN UP
+            </a>
+        </div>
+        </div>
+    </div>      
 </header>
          <main id="contact_main">
              <div class="w3-half w3-container" id="contact_infomiddle">

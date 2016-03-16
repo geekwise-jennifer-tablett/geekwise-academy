@@ -137,21 +137,8 @@ input[type=checkbox]{
     display: block
         background-color:#d2d2d2;
 }
-    .hamburger{
-        margin:0 auto;
-        width: auto;
-        height: auto;
-        font-size:20px;
-        text-align: center;
-        visibility: visible;
-    }
-    .fa{
-        margin:0 auto;
-        visibility: visible;
-        color:grey;
-    }*/
-  
-    #logo{
+   
+ #logo{
         height:auto;
         width:100%;
    }
@@ -675,7 +662,7 @@ div#contact_infomiddle {
 
 /*flex_box_jake_page*/
 
-.flex_container_nav{
+.flex_container_p{
     display: inline-flex;
     -webkit-flex;
     justify-content: center;
@@ -683,7 +670,6 @@ div#contact_infomiddle {
     width:90%;
     position:relative;
     top:-7.5rem;
-    visibility:hidden;
 }
 .flex_li{
     margin:1px;
@@ -695,7 +681,9 @@ div#contact_infomiddle {
     line-height:50px;
     visibility:hidden;
 }
-
+.active_li{
+    background-color:#f9da0c;
+}
 .flex_li:last-child{
     background-color:#f9da0c;
 }
@@ -705,8 +693,7 @@ div#contact_infomiddle {
 
 /*dropdown_button*/
 .plain_nav{
-    visibility:hidden;
-    background-color:greenyellow;
+    background-color:#ffffff;
 }
 .dropdown_content{
     position: relative;
@@ -737,13 +724,30 @@ label{
     pointer-events:auto;
     opacity:1;
 }
-/*media_query*/
+.flex_container_team{
+     height:100rem;
+    width:100%;
+    background-color:#7b1401;
+    color:#ffffff;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap:wrap;
+}
+.flex_item_team{
+    width:50rem;
+    height:100rem;
+    margin: 10px;
+}
+/*media_query_individual_team_members*/
     @media only screen and (max-width:768px){
         plain_nav{
             visibility:hidden;
         } .flex_container_nav{
          
-    visibility:hidden;
+    visibility:visible;
         }
         .flex_li:last-child{
             visibility:visible;
@@ -756,6 +760,8 @@ label{
     display: inline-block;
     color:#000000;
     height:5rem;
+            visibility:visible;
+        
 }
 label{
     box-sizing: border-box;
@@ -764,3 +770,7 @@ label{
     cursor: pointer;
     text-align: center;
 }
+        #img_jake{
+            max-height:178px;
+            width:auto;
+        }
