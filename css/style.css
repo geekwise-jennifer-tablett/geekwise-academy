@@ -681,10 +681,9 @@ div#contact_infomiddle {
     justify-content: center;
     height:4rem;
     width:90%;
-    background-color:blue;
     position:relative;
     top:-7.5rem;
-    visibility:visible;
+    visibility:hidden;
 }
 .flex_li{
     margin:1px;
@@ -694,23 +693,27 @@ div#contact_infomiddle {
     text-align:center;
     align-items:center;
     line-height:50px;
+    visibility:hidden;
 }
 
 .flex_li:last-child{
     background-color:#f9da0c;
-    visibility:visible;
 }
 .hamburger{
     visibility:hidden;
 }
 
 /*dropdown_button*/
+.plain_nav{
+    visibility:hidden;
+    background-color:greenyellow;
+}
 .dropdown_content{
     position: relative;
     display: inline-block;
     color:#000000;
     height:5rem;
-    
+    visibility: hidden;
 }
 label{
     box-sizing: border-box;
@@ -718,19 +721,27 @@ label{
     padding: 15px 20px;
     cursor: pointer;
     text-align: center;
+    visibility: hidden;
 }
 #checkbox_toggle:checked+.dropdown_content{
     display: none;
 }
-
+.flex_container_nav{
+    visibility:hidden;
+}
+.flex_li{
+    visibility:hidden;
+}
 .dropdown .content{
-   
+    visibility: hidden;
     pointer-events:auto;
     opacity:1;
 }
 /*media_query*/
     @media only screen and (max-width:768px){
-        .flex_container_nav{
+        plain_nav{
+            visibility:hidden;
+        } .flex_container_nav{
          
     visibility:hidden;
         }
