@@ -49,56 +49,7 @@ li:hover{
 hr{
     visibility:hidden;
 }
-/*dropdown_menu*/
-/*.dropdown{
-    margin:1rem;
-    display:inline-block;
-    position:relative;
-    color:#ccc5c5;
-    font-size:1.5rem;
-    border:.5px solid #dbd3d3;
-    height:4rem;
-    width:5rem;
-    top:-6rem;
-    border-radius:.5rem;
-    float:right;
-}
-.dropdown_content{
-    padding: 10px 10px;
-    position:absolute;
-    display:none;
-    margin:0 auto;
-    text-align:center;
-}
-.fa-bars{
-    position:absolute;
-    left:.7rem;
-    cursor:auto;
-}
-.dropdown{
-    visibility:hidden;
-    width:100%;
-}
-.dropdown_content{
-    display:block;
-    background-color:#7a1501;
-    width:100%;
-}
 
-.dropdown_a:hover{
-    background-color:#eae6e6;
-}
-#toggle{
-    display: block;
-    display: none;
-    
-}
-#toggle:checked~p{
-   display: block;
-}
-input[type=checkbox]:checked ~ p{
-    display: none;
-}*/
 
 
 
@@ -173,7 +124,7 @@ top_line{
 /*mediaquery_homepage*/
 @media only screen and (max-width:768px){
 
- /* nav >ul{
+  nav >ul{
        visibility:hidden;
     }
 input[type=checkbox]{
@@ -199,9 +150,7 @@ input[type=checkbox]{
         visibility: visible;
         color:grey;
     }*/
-    #top_line{
-        visibility:visible;
-    }
+  
     #logo{
         height:auto;
         width:100%;
@@ -272,16 +221,7 @@ h1{
     position:relative;
     transform:translateX(-7rem);
 }
-/*button{
- margin:0 auto;
- height:3rem;
- width:5rem;
- position:relative;
- transform:translateX(35rem);
- top:-2rem;
- border-color:#f9da0c;
- background-color:#f9da0c;
-}*/
+
 main{
     margin:0;
     padding:0;
@@ -318,33 +258,12 @@ footer{
 header >ul{
     
     /*media_querry_ about_page*/
-   /* @media only screen and (max-width:768px){
+ @media only screen and (max-width:768px){
         .plain_nav{
             visibility:hidden;
         }
-        input[type=checkbox]{
-    display: none;
-}
-    ul{
-    display: none;
-}
-    input[type=checkbox]:checked ~ ul {
-    display: block
-}
-    .hamburger{
-        margin:0 auto;
-        width: auto;
-        height: auto;
-        font-size:20px;
-        text-align: center;
-        visibility: visible;
-    }
-    .fa{
-        margin:0 auto;
-        visibility: visible;
-        color:grey;
-    }*/
-    #top_line{
+        
+#top_line{
         visibility:visible;
     }
     #logo{
@@ -545,6 +464,7 @@ ol >li{
     position:relative;
     right:-4rem;
 }
+
 /*check_box_setup*/
 /*input[type=checkbox]{
   position:absolute;
@@ -617,7 +537,7 @@ runOnLoad(Dropdown.initialise);
         
     
 }
-    /*.hamburger{
+  .hamburger{
         margin:0 auto;
         width: auto;
         height: auto;
@@ -630,7 +550,7 @@ runOnLoad(Dropdown.initialise);
         visibility: visible;
         color:grey;
     }*/
-    #top_line{
+   #top_line{
         visibility:visible;
     }
     #logo{
@@ -768,13 +688,12 @@ div#contact_infomiddle {
 /*flex_box_jake_page*/
 
 .flex_container_nav{
-   display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: center;
+    display: inline-flex;
+    -webkit-flex;
     justify-content: center;
     height:4rem;
     width:90%;
-    background-color:#ffffff;
+    background-color:blue;
     position:relative;
     top:-7.5rem;
 }
@@ -798,59 +717,26 @@ div#contact_infomiddle {
 
 
 /*dropdown_button*/
-.dropdownbutton{
+.dropdown_content{
     position: relative;
     display: inline-block;
-    font-size: 16px;
     color:#000000;
     height:5rem;
 }
-input[type=checkbox]{
-    display: none;
-}
 label{
     box-sizing: border-box;
-    display: inline-block;
     width: 100%;
     padding: 15px 20px;
     cursor: pointer;
     text-align: center;
 }
-#nav_dropdown{
-    display: block;
-    height: 5rem;
-    width: 100%;
-    text-align: center;
-}
-nav_dropdown >ul{
-    position: absolute;
-    list-style: none;
-    text-align: left;
-    width: 100%;
-    z-index: 1;
-    margin:0;
-    padding:0;
+#checkbox_toggle:checked+.dropdown_content{
+    display: none;
 }
 
-
-nav_drowpdown >ul >li{
-    padding: 15px;
-    background-color: #fff;
-    color:#000000;
-    margin-bottom: 1px;
-    cursor: pointer;
+.dropdown .content{
+   
+    pointer-events:auto;
+    opacity:1;
 }
-
-
-nav_dropdown >ul >li a{
-    color: inherit;
-    text-decoration: none;
-}
-input[type=checkbox]:checked ~ label {
-    background-color:greenyellow;
-}
-
-
-input[type=checkbox]:checked ~ nav {
-    display: block;
-}
+    
