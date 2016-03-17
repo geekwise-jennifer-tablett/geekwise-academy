@@ -10,88 +10,104 @@
         <link type="text/css" rel="stylesheet" href="css/style.css">
     </head>
     <body>
-         <nav>
-         <ul>
-          <li>
-              <a href="indexabout.html">About
-              </a>
-            </li>
-            <li>
-                <a href="indexcourses.html">Courses
-                </a>
-            </li>
-            <li>
-                <a href="indexworkshops.html">Workshops
-                </a>
-            </li>
-            <li>
-                <a href="indexcohort.html">Cohort
-                </a>
-            </li>
-            <li class="active">
-                <a href="indexsignup.html">Sign up
-                </a>
-            </li>
-            <li>
-                <a href="indexteam.html">Team
-                </a>
-            </li>
-            <li>
-                <a href="indexcontact.html">Contact
-                </a>
-            </li>
-          </ul>
-      </nav>
-         <hr>
-      <!--dropdown_menu-->  
+         <div class="top_nav ">
+       <a href="index.html">
+        <img src="http://i.imgur.com/4sLPl0U.png" class="img_link">
+      </a>
+     <!--navbar_homepage-->
+    <nav class="plain_nav"> 
+        <ul>
+         <li class="color_white">
+          <a href="indexabout.html">about
+          </a>
+         </li>
+         <li class="color_white"> 
+          <a href="indexcourses.html">courses
+          </a>
+         </li>
+         <li class="color_white"> 
+          <a href="indexworkshops.html">workshops
+          </a>
+         </li>
+         <li class="color_white"> 
+          <a href="indexcohort.html">cohort
+          </a>
+         </li>
+         <li class="color_white"> 
+          <a href="indexteam.html">team
+          </a>
+         </li>
+         <li class="color_white"> 
+          <a href="indexcontact.html">contact
+          </a>
+         </li>
+        </ul>
+       </nav>
+        <a href="indexsignup.html" class="active_li course_right">signup</a>
+     </div>   
+ 
+   <!--dropdown_menu-->  
     <div class="dropdown">
-     <label class="fa fa-bars hamburger"></label>
-     <input type="checkbox" id="checkbox_toggle">
-      <div class="dropdown_content">
-          <p>
-              <a href="indexabout.html" class="dropdown_a">about
-              </a>
-          </p>
-          <p>
-              <a href="indexcourses.html" class="dropdown_a"> courses
-              </a>
-          </p>
-          <p>
-              <a href="indexworkshops" class="dropdown_a">workshops
-              </a>
-          </p>
-          <p>
-              <a href="indexcohort.html" class="dropdown_a">cohort
-              </a>
-          </p>
-          <p>
-              <a href="signup" class="active" class="dropdown_a">signup
-              </a>
-          </p>
-          <p>
-              <a href="indexteam.html" class="dropdown_a">team
-              </a>
-          </p>
-          <p>
-              <a href="indexcontact.html" class="dropdown_a">contact
-              </a>
-          </p>
-      </div>
-          </div>
-    <div>
-<!--owl-->
+     <label for="checkbox_toggle" class="fa fa-bars hamburger"></label>
+      <div class="flex_container_nav">
+        </div>
+        
+        <!--nav bar in flex box-->
+        <input type="checkbox" id="checkbox_toggle">
+        <div class="dropdown_content">
+         <div class="flex_li dropdown_content">
+          <a href="indexabout.html">
+              ABOUT
+          </a>  
+        </div>
+        <div class="flex_li dropdown_content">
+            <a href="indexcourses.html">
+                COURSES
+            </a>
+        </div>
+        <div class="flex_li dropdown_content">
+            <a href="indexworkshops.html">
+                WORKSHOPS
+            </a>
+        </div>
+        <div class="flex_li dropdown_content">
+            <a href="indexcohort.html">
+                COHORT
+            </a>
+        </div>
+        <div class="flex_li dropdown_content">
+            <a href="indexteam.html">
+                TEAM
+            </a>
+        </div>
+        <div class="flex_li dropdown_content">
+            <a href="indexcontact.html">
+                CONTACT
+            </a>
+        </div>
+        <div class="flex_li visable active pin_right dropdown_content">
+            <a href="indexsignup.html">
+                SIGN UP
+            </a>
+        </div>
+        </div>
+    </div>
+
+    <!--owl_img-->
      <a href="#">
       <img src="http://i.imgur.com/CTNu4Ai.jpg"id="logo" >
      </a>
- </div>
  <section>
     <h2>fast. nofluff.
     </h2>
     <h1>we teach technology skills that you can use to make money
     </h1>
-     <hr>
+    <!--horizontal line-->
+    <hr>
+<!--flex_container-try-->
   <div class="verticle_line">
-    <a href="#" class="nocolor_a">
+      <div class="verticle_line-content left">
+       <a href="#" class="nocolor_a">
         <img src="http://i.imgur.com/PlBWa3E.png">
         <br>
          <span>
@@ -101,7 +117,8 @@
         </span>
     </a>
  </div>
- <div class="verticle_line">
+ <!--verticle lines-->
+ <div class="-verticle_line-content" id="center_content left">
     <a href="#" class="nocolor_a">
         <img src="http://geekwiseacademy.com/img/icon-signup.png">
         <br>
@@ -110,7 +127,8 @@
         </span>
     </a> 
  </div>
- <div id="left_img">
+ <!--verticle lines-->
+ <div class="verticle_line-content right">
     <a href="#" class="nocolor_a">
         <img src="http://i.imgur.com/99VCVjC.png">
         <br>
@@ -119,6 +137,7 @@
         </span>
     </a>
   </div>
- </section>
+</div>
+</section>
  </body>
 </html>

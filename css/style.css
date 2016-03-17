@@ -50,9 +50,6 @@ hr{
     visibility:hidden;
 }
 
-
-
-
 /*owl_on_home_page*/
 #logo{
     margin:0 auto;
@@ -75,17 +72,39 @@ h1{
     color:#ffffff;
 }
 
+/*flex-container-try2*/
+/*.flex_container-verticle_line{
+    display: -webkit-flex;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items:center;
+}
+.flex_item-verticle_line{
+    max-width:50%;
+}*/
 
 /*verticleline_betweendiv_homepage*/
 .verticle_line{
-    margin-top:4rem;
-    padding:20px;
-    height:10rem;
-    width:calc(84%/3);
-    border-right:2px solid #ffffff;
-    text-align:center;
-    display:inline;
+    margin:0 auto;
+    display:block;
+    width:70%;
+    height:auto;
+}
+.verticle_line-content{
+    margin:0 auto;
+    height:auto;
+    border-right: 1px solid white;
+    display:inline;    
+}
+.left{
     float:left;
+    width:calc(100%/3);
+}
+.right{
+    float:right;
+    width:calc(100%/3);
 }
 .nocolor_a:hover{
     background-color:#7a1501;
@@ -94,22 +113,13 @@ span{
     text-transform:uppercase;
     color:#ffffff;
 }
-#left_img{
-    margin-top:4rem;
-    padding:20px;
-    height:10rem;
-    width:calc(84%/3);
-    text-align:center;
-    display:inline;
-    width:calc(84%/3);
-    float:left;
-}
-#content{
+
+#center_content{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px;
+    box-shadow: 0px 2px 0px 2px solid;
 }
 #content >a{
     text-decoration:none;
@@ -165,6 +175,7 @@ input[type=checkbox]{
 .top_nav{
     height:4rem;
 }
+/*logo_img-link*/
 .img_link{
    
     padding:.5rem;
@@ -186,6 +197,7 @@ input[type=checkbox]{
     background-color:#ffffff;
     
 }
+/*owl_background-img*/
 #background_img{
     margin:0;
     padding:0;
@@ -195,6 +207,7 @@ input[type=checkbox]{
     background-repeat: no-repeat;
     background-color:#ffffff;
 }
+/*floating title*/
 #background_img > h1{
     text-transform: uppercase;
     height:5rem;
@@ -216,6 +229,19 @@ main{
     width:100%;
     background-color:#7a1501;
 }
+
+/*sign-in-button*/
+button{
+    height:3rem;
+    width:5rem;
+    background-color:#f9da0c;
+    color:#7a1501;
+    position:relative;
+    left:37rem;
+    top:-1.5rem;
+}
+
+/*red_section*/
 #section_about{
     margin:0 auto;
     height:30rem;
@@ -231,6 +257,8 @@ main{
     font-size:15px;
     float:left;
 }
+
+/*space-in-here*/
 footer{
     margin:0; 
     height:3rem;
@@ -325,6 +353,7 @@ header >ul{
     padding:1rem;
     text-align:justify;
 }
+/*simple_table_only*/
 table{
     margin:0 auto;
     padding:0;
@@ -351,6 +380,7 @@ th,td{
     text-align: center;
     background-color:#f9da0c;
 }
+/*yellow-button-link*/
 .bottom_link{
     margin-top:4rem;
     width:20rem;
@@ -385,6 +415,7 @@ th,td{
 #hr_work{
     width:100%;
 }
+/*yellow_button-link*/
 .work_link{
     margin:1rem;
     position:relative;
@@ -409,6 +440,7 @@ th,td{
 .color_white >a{
     color:#000000;
 }
+
 /*background_cohortandteam*/
 .bird_topright{
     margin:0 auto;
@@ -419,6 +451,7 @@ th,td{
     background-repeat: no-repeat;
     background-position:top right;
 }
+/*large_title*/
 #cohort_info{
     margin-top:4rem;
  
@@ -437,6 +470,7 @@ th,td{
     width:75%;
     margin:0 auto
 }
+        /*goal_list*/
 ol{
     display:inline-block;
     clear:both;
@@ -452,7 +486,7 @@ ol >li{
     right:-4rem;
 }
 
-/*check_box_setup*/
+/*cohort_dropdown*/
 /*input[type=checkbox]{
   position:absolute;
   background-color: #f9da0c;
@@ -509,8 +543,6 @@ input[type=checkbox]:checked ~p{
     text-align:justify;
     visibility:visible;
 }*/
-/*javascript_run,forall_essfunc*/
-runOnLoad(Dropdown.initialise);
 
 
 /*media_querry_ cohort_page*/
@@ -525,37 +557,12 @@ runOnLoad(Dropdown.initialise);
     
 }
  
-   #top_line{
-        visibility:visible;
-    }
-    #logo{
-        height:auto;
-        width:100%;
-   }
-        .dropdown{
-            visibility: visible;
-        }
-    .verticle_line{
-        height: auto;
-        max-width:62px;
-    }
-    #left_img{
-        max-width:62px;
-        height: auto;
-    }
-    
-    hr{
-        width:100%;
-    }
-    
-    }}
-
+ 
 /*team_page*/
-/*background img cohortandteam_page*/
+/*background img team_page*/
 body{
     background-image:url(http://i.imgur.com/otZt1fi.png);
     background-position: top right;
-    
 }
 #h1_team{
     color:#000000;
@@ -575,6 +582,7 @@ body{
     text-align:center;
     position:relative;
 }
+/*special_hover_img*/
 .team_img{
     margin:1.5rem;
     height:126px ;
@@ -610,6 +618,8 @@ span:hover{
 body{
     margin:0;
     }
+
+/*giant_background_img*/
 #contact_main{
     margin:0 auto;
     height:700px;
@@ -661,7 +671,6 @@ div#contact_infomiddle {
 
 
 /*flex_box_jake_page*/
-
 .flex_container_p{
     display: inline-flex;
     -webkit-flex;
