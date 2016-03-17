@@ -197,6 +197,7 @@ input[type=checkbox]{
     background-color:#ffffff;
     
 }
+
 /*owl_background-img*/
 #background_img{
     margin:0;
@@ -380,6 +381,7 @@ th,td{
     text-align: center;
     background-color:#f9da0c;
 }
+
 /*yellow-button-link*/
 .bottom_link{
     margin-top:4rem;
@@ -415,6 +417,7 @@ th,td{
 #hr_work{
     width:100%;
 }
+
 /*yellow_button-link*/
 .work_link{
     margin:1rem;
@@ -560,10 +563,7 @@ input[type=checkbox]:checked ~p{
  
 /*team_page*/
 /*background img team_page*/
-body{
-    background-image:url(http://i.imgur.com/otZt1fi.png);
-    background-position: top right;
-}
+
 #h1_team{
     color:#000000;
 }
@@ -782,4 +782,42 @@ label{
         #img_jake{
             max-height:178px;
             width:auto;
-        }
+}
+        
+/*signup_page*/
+#signup_main{
+    height:100%;
+    width:auto;
+    background-color:#7a1501;     
+}
+#center_button_signup{
+        margin:0 auto;
+        height:2rem;
+        width:3rem;
+        line-height:2rem;
+        text-align:center;
+        background-color:#f9da0c;
+        color:#7a1501;
+ }
+#signup_info{
+       margin:0 auto;
+       padding:3rem;
+       height:90%;
+       width:30rem;
+       background-color:#ffffff;
+}
+/*simple_with-hr-dashed_split*/ .enrollment{
+         height:10rem;
+         width:100%;
+}
+.black_font{
+           margin:0 auto; color:#000000;
+}        
+.dashed_line{
+        width:100%;
+         border-bottom: 1px dashed #ccc;
+} 
+        
+        
+        
+        
