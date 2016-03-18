@@ -519,7 +519,7 @@ ol >li{
     display:block;
     opacity:1;
     pointer-events: auto;
-    visibility:collapse;
+    visibility:visible;
 }
 .students{
     height:20rem;
@@ -558,6 +558,7 @@ ol >li{
     display:block;
     opacity:1;
     pointer-events: auto;
+    visibility: visible;
 }
 /*hello*/
 
