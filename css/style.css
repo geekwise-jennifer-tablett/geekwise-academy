@@ -496,11 +496,13 @@ ol >li{
     display:block;
     height:2rem;
     width:80%;
-    background-color:green;
+    background-color:#f9da0c;
 }
 /*arrow_inside_click*/
 .onclick-cohort-menu:before{
-    content:"";
+    content:"Cohort Class 2 &#40; July 2015 &#45; January 2016 &#41;";
+    line-height: 2rem;
+    text-align: center;
 }
 .onclick-cohort_content{
     height: 40rem;
@@ -509,13 +511,15 @@ ol >li{
     opacity:0;
     z-index:1;
     display:none;
-    transition:visibility 0.5s;
+    transition:visibility 0.5;
+    visibility: hidden;
     background-color:#ffffff;
 }
-.onclick-cohort-menu .onclick-cohort_content{
+.onclick-cohort-menu:focus .onclick-cohort_content {
     display:block;
     opacity:1;
     pointer-events: auto;
+    visibility:collapse;
 }
 .students{
     height:20rem;
@@ -529,29 +533,38 @@ ol >li{
     margin: 0 auto;
     
 }
-/*hello*/
 .student_p{
     margin:0 auto;
     width:12rem;
     font-size:8px;
     line-height:1rem;
     text-align: center;
-    
     text-align: justify;
 }
+/*menu2*/
+.onclick-cohort-menu2{
+    margin:0 auto;
+    position:relative;
+    display:block;
+    height:2rem;
+    width:80%;
+    background-color:#f9da0c;
+}
+/*arrow_inside_click*/
+.onclick-cohort-menu2:before{
+    content:" Cohort Class 1 &#40; January 2015 &#45; July 2015 &#41;";
+}
+.onclick-cohort-menu2 .onclick-cohort_content{
+    display:block;
+    opacity:1;
+    pointer-events: auto;
+}
+/*hello*/
 
 
 /*media_querry_ cohort_page*/
-    @media only screen and (max-width:768px){
-        .img_work{
-           
-        }
-        .plain_nav{
-            visibility:hidden;
-        }
+    @media only screen and (max-width:768px) 
         
-    
-}
  
  
 /*team_page*/
