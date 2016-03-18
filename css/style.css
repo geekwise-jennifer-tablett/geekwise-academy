@@ -487,26 +487,54 @@ ol >li{
 }
 
 /*cohort_dropdown*/
-.cohort_click-menu{
+.onclick-cohort-menu{
     margin:0 auto;
     position:relative;
-    display:inline-block;
+    display:block;
+    height:2rem;
+    width:80%;
+    background-color:green;
 }
 /*arrow_inside_click*/
-.cohort_click-menu:before{
+.onclick-cohort-menu:before{
     content:"";
 }
-.cohort_content{
+.onclick-cohort_content{
+    height: 40rem;
+    width:100%;
     position:absolute;
     opacity:0;
     z-index:1;
     display:none;
     transition:visibility 0.5s;
+    background-color:#ffffff;
 }
-.img_dropdown{}
-.dropdown_name{}
-
-
+.onclick-cohort-menu .onclick-cohort_content{
+    display:block;
+    opacity:1;
+    pointer-events: auto;
+}
+.students{
+    height:20rem;
+    width:calc(100%/4);
+    float:left;
+}
+.img_dropdown{
+    padding:5px;
+    position:relative;
+    display: block;
+    margin: 0 auto;
+    
+}
+.student_p{
+    margin:0 auto;
+    width:12rem;
+    font-size:8px;
+    line-height:1rem;
+    text-align: center;
+    
+    text-align: justify;
+}
 
 
 /*media_querry_ cohort_page*/
