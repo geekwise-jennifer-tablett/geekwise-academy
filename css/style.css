@@ -542,25 +542,7 @@ ol >li{
     text-align: justify;
 }
 /*menu2*/
-.onclick-cohort-menu2{
-    margin:0 auto;
-    position:relative;
-    display:block;
-    height:2rem;
-    width:80%;
-    background-color:#f9da0c;
-}
-/*arrow_inside_click*/
-.onclick-cohort-menu2:before{
-    content:" Cohort Class 1 &#40; January 2015 &#45; July 2015 &#41;";
-}
-.onclick-cohort-menu2 .onclick-cohort_content{
-    display:block;
-    opacity:1;
-    pointer-events: auto;
-    visibility: visible;
-}
-/*hello*/
+
 
 
 /*media_querry_ cohort_page*/
@@ -792,39 +774,24 @@ label{
 }
         
 /*signup_page*/
-#signup_main{
-    height:100%;
-    width:auto;
-    background-color:#7a1501;     
-}
-#center_button_signup{
-        margin:0 auto;
-        height:2rem;
-        width:3rem;
-        line-height:2rem;
-        text-align:center;
-        background-color:#f9da0c;
-        color:#7a1501;
+ #sighnup_main{
+            background-color:#7a1501;
  }
-#signup_info{
-       margin:0 auto;
-       padding:3rem;
-       height:90%;
-       width:30rem;
-       background-color:#ffffff;
-}
-/*simple_with-hr-dashed_split*/ .enrollment{
-         height:10rem;
-         width:100%;
+#signup_div{
+      height:2rem;
+      width:5rem;
+      background-color:#f9da0c;
+      color:#7a1501;
+ }
+#colorwhite{
+    background-color:#ffffff;
+    height: 50rem;
+    width:25rem;
 }
 .black_font{
-           margin:0 auto; color:#000000;
-}        
-.dashed_line{
-        width:100%;
-         border-bottom: 1px dashed #ccc;
-} 
-        
-        
-        
-        
+            color:#000000;
+}
+.enrollment{
+      background-color:#ffffff;      
+}
+.dashed_line{}
