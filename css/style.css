@@ -489,7 +489,7 @@ ol >li{
     right:-4rem;
 }
 
-/*cohort_dropdown*/
+/*cohort_dropdown_1*/
 .onclick-cohort-menu{
     margin:0 auto;
     position:relative;
@@ -507,7 +507,7 @@ ol >li{
 .onclick-cohort_content{
     height: 40rem;
     width:100%;
-    position:absolute;
+    position:relative;
     opacity:0;
     z-index:1;
     display:none;
@@ -521,9 +521,17 @@ ol >li{
     pointer-events: auto;
     visibility:visible;
 }
+.cohort_li{
+    margin:1rem;
+    display:block;
+    float:left;
+    position:relative;
+}
 .students{
+    margin:1rem;
     height:20rem;
-    width:calc(100%/4);
+    width:23%;
+    display:inline;
     float:left;
 }
 .img_dropdown{
@@ -541,7 +549,38 @@ ol >li{
     text-align: center;
     text-align: justify;
 }
-/*menu2*/
+/*dropdown_menu_2*/
+
+.onclick-cohort-menue_2:before{
+    content:"Cohort Class 1 &#40; january 2015 &#45; July 2015 &#41;";
+    margin:0 auto;
+    position:relative;
+    display:block;
+    height:2rem;
+    width:80%;
+    background-color:#f9da0c;
+}
+.onclick-cohort_content_2{
+    height: 40rem;
+    width:100%;
+    position:relative;
+    opacity:0;
+    z-index:1;
+    display:none;
+    transition:visibility 0.5;
+    visibility: hidden;
+    background-color:#ffffff;
+}
+.onclick-cohort-menue_2:focus .onclick-cohort_content_2 {
+    display:block;
+    opacity:1;
+    pointer-events: auto;
+    visibility:visible;
+}
+
+
+
+
 
 
 
