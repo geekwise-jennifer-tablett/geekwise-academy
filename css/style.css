@@ -90,16 +90,17 @@ h1{
     margin:0 auto;
     display:block;
     width:70%;
-    height:auto;
+    height:10rem;
 }
 .verticle_line-content{
     margin:0 auto;
-    height:auto;
+    height:10rem;
     border-right: 1px solid white;
     display:inline;    
 }
 .left{
     float:left;
+    height:10rem;
     width:calc(100%/3);
 }
 .right{
