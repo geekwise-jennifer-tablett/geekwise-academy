@@ -67,8 +67,9 @@ input[type=checkbox]{
 }
 #white_sec{
     margin:0 auto;
-    height:30rem;
+    height:12rem;
     width:100%;
+    background-color:#ffffff;
 }
 section{
     margin-top:1rem;
