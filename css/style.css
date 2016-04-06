@@ -857,8 +857,7 @@ label{
     display: inline-block;
     color:#000000;
     height:5rem;
-            visibility:visible;
-        
+    visibility:visible;
 }
 label{
     box-sizing: border-box;
@@ -882,16 +881,19 @@ label{
  #sighnup_main{
             background-color:#7a1501;
  }
-#signup_div{
-      height:2rem;
-      width:5rem;
-      background-color:#f9da0c;
-      color:#7a1501;
+.signup_div{
+    height:3rem;
+    width:5rem;
+    background-color:#f9da0c;
+    color:#7a1501;
+    display:block;
+    line-height: 3rem;
+    text-align: center;
  }
-#colorwhite{
+#colorwhite_sec{
     background-color:#ffffff;
     height: 50rem;
-    width:25rem;
+    width:15rem;
 }
 .black_font{
             color:#000000;
