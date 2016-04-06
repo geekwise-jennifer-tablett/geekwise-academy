@@ -831,9 +831,12 @@ label{
     flex-wrap:wrap;
 }
 .flex_item_team{
-    width:50rem;
-    height:100rem;
-    margin: 10px;
+    width:45%;
+    height:50rem;
+    font-size:20px;
+    position:relative;
+    float:left;
+    text-align: center;
 }
 /*media_query_individual_team_members*/
     @media only screen and (max-width:768px){
@@ -864,11 +867,17 @@ label{
     cursor: pointer;
     text-align: center;
 }
-        #img_jake{
-            max-height:178px;
-            width:auto;
+#img_jake{
+    max-height:178px;
+    width:auto;
 }
-        
+.moving_img{
+   display:block;
+   position:relative;
+   left:-20rem;
+   top:50rem;
+    background-color:blue;
+}        
 /*signup_page*/
  #sighnup_main{
             background-color:#7a1501;
