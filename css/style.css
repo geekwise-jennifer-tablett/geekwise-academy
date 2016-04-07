@@ -232,15 +232,16 @@ input[type=checkbox]{
 }
 /*logo_img-link*/
 .img_link{
-   
-    padding:.5rem;
+  margin:1rem;
+  position:relative;
+  left:5.7rem;
 }
 .plain_nav{
     margin:0 auto;
     position:relative;
-    top:-6rem;
-    height:5rem;
+    height:4rem;
     width:60%;
+    top:-5rem;
 }
 .plain_nav >ul{
     height:5rem;
@@ -249,8 +250,6 @@ input[type=checkbox]{
 .plain_li >a:hover{
     display:inline;
     color:#7a1501;
-    background-color:#ffffff;
-    
 }
 
 /*owl_background-img*/
@@ -364,6 +363,20 @@ header >ul{
     height:10rem;
     background-color:#7a1501;
 }
+.red_nav{
+    background-color:#7a1501;   
+}
+#courses_goldfont{
+   color:#f9da0c; 
+};
+.red_nav a:hover{
+   color:#f9da0c;
+   background-color:#7a1501;
+}
+.red_nav > ul >li:hover{
+   color:#ffffff;
+   background-color:#7a1501;
+}
 .color_white{
     position:relative;
     top:1.2rem;
@@ -373,19 +386,19 @@ header >ul{
 }
 /*signup link*/
 .course_right{
-    height:3.5rem;
+    height:3rem;
     width:5rem;
+    line-height:3rem;
     text-align:center;
-    line-height:3.5rem;
     position:relative;
     float:right;
     transform:translateY(-9rem);
-    left:-10rem;
+    left:-13rem;
     color:#7a1501;
 }
 #no_fluff{
     margin:0;
-    padding:0;
+    padding-left:6rem;
     height:3rem;
     width:40%;
     text-align: center;
@@ -787,7 +800,7 @@ div#contact_infomiddle {
 
 /*dropdown_button*/
 .plain_nav{
-    background-color:#ffffff;
+    
 }
 .dropdown_content{
     position: relative;
