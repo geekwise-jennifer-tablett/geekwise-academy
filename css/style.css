@@ -366,7 +366,7 @@ header >ul{
 .red_nav{
     background-color:#7a1501;   
 }
-#courses_goldfont{
+.goldfont{
    color:#f9da0c; 
 };
 .red_nav a:hover{
@@ -392,7 +392,7 @@ header >ul{
     text-align:center;
     position:relative;
     float:right;
-    transform:translateY(-9rem);
+    transform:translateY(-10rem);
     left:-13rem;
     color:#7a1501;
 }
@@ -713,8 +713,17 @@ span:hover{
 /*contact_page*/
 body{
     margin:0;
-    }
-
+}
+.contact_header{
+    height:5rem;
+}
+ .contact_nav>ul >li{
+    position: relative;
+    top:-6rem;
+}
+.white_font{
+    color:#ffffff;
+}
 /*giant_background_img*/
 #contact_main{
     margin:0 auto;
@@ -729,12 +738,13 @@ body{
     background-repeat: no-repeat;
 }
 div#contact_infomiddle {
-    padding-top:5rem;
+    margin: 0 auto;
     height:15rem;
     width:10rem;
-    margin: 0 auto;
     position:relative;
-    text-align: center; 
+    top:16rem;
+    text-align: center;
+    background-color:#ffffff;
 }
 #mural_img{
   height:auto;
@@ -745,9 +755,8 @@ div#contact_infomiddle {
     font-size:.8rem;
 }
 
-.span_emaillink{
+#emaillink{
     color: #7a1501;
-    font-family:;
 }    
 
 /*mediaquery_header*/
@@ -799,9 +808,7 @@ div#contact_infomiddle {
 }
 
 /*dropdown_button*/
-.plain_nav{
-    
-}
+
 .dropdown_content{
     position: relative;
     display: inline-block;
