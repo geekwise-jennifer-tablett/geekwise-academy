@@ -660,8 +660,9 @@ ol >li{
 /*team_page*/
 /*background img team_page*/
 
-#h1_team{
+.span_team{
     color:#000000;
+    font-size:60px;
 }
 #sec_team{
     margin-top:4rem;
