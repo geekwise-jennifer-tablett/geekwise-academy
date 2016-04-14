@@ -652,24 +652,21 @@ ol >li{
 
 
 /*media_querry_ cohort_page*/
-    @media only screen and (max-width:768px) 
+    @media only screen and (max-width:768px); 
         
  
  
 /*team_page*/
-/*background img team_page*/
 
-h3{
-    margin:0 auto;
-    height:4rem;
-    width:6rem;
-    color:#000000;
-    font-size:5rem;
-    background-color:pink;
+article {
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    position:relative;
+    top:-8rem;
 }
 #sec_team{
-    margin-top:4rem;
-    height:75rem;
+    height:25rem;
     color:#ffffff;
     text-align:center;
 }
